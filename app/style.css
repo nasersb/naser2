@@ -1,0 +1,83 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #353535;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    max-width:none;
+    margin:auto;
+    height:700px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #c92222;
+}
+.city{
+    font-size: 20px;
+    display: flex;
+    width: 450px;
+    position: absolute;
+    right: 400px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.button-container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button {
+    margin: 0 10px;
+    padding: 12px 20px;
+    background-color: #b83232;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button1{
+    margin: 100 10px;
+    padding: 12px 20px;
+    background-color: #dfdfdf;
+    color: #4b4b4b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button1:hover{
+    background-color: #919191;
+}
+.button:hover {
+    background-color: #530a0a;
+}
+h2{
+    color: #5a5a5a;
+}
+.ul1{
+    position: absolute;
+    right: 0px;
+    color: #c92222;
+}
+.name{
+    margin: 0 10px;
+    padding: 12px 20px;
+    height: 10px;
+    font-size: 36px;
+    text-decoration: none;
+}
+header{
+    background-color: #333; /* لون الخلفية للشريط */
+    padding:  0; /* تباعد داخلي للشريط */
+}
